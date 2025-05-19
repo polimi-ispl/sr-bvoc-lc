@@ -1,0 +1,35 @@
+name: bvoc-fusionsr-env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
+  - tensorboard
+  - torchmetrics
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - xarray
+  - dask
+  - fsspec
+  - requests
+  - aiohttp
+  - zarr
+  - tqdm
+  - cftime
+  - opencv
+  - cartopy
+  - geopandas
+  - rasterio
+  - seaborn
+  - scikit-image
+  - torchinfo
+  - einops
